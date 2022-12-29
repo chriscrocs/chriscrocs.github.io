@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+/* NAVBAR STYLING STARTS */
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+    background-color: #333;
+    color: #fff;
+    font-family: Arial;
+
+
+}
+
+.nav-links a {
+    color: #fff;
+}
+
+/* NAVBAR MENU */
+
+.menu {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+    color: black;
+}
+
+.menu li:hover {
+    background-color: #555;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+.menu li {
+    padding: 5px 14px;
+}
+
+/*              breadcrumb                */
+
+.breadcrumb {
+    background-color: #ECECEC;
+    padding: 6px;
+}
+
+/* ----------------------------------- WEBSITE CONTENTS --------------------------- */
+.row1 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 4px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+}
+
+.row2 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+}
+
+.card {
+    width: 20rem;
+
+}
+
+
+.card-title {
+    font-weight: bold;
+}
+
+.card-text {
+    text-align: center;
+    font-size: 20px;
+    font-family: Verdana;
+}
+
+/* ---------------------------------FOOTER --------------------------- */
+
+footer {
+    position: absolute;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    bottom: -10rem;
+    padding: 10px;
+    width: 100%;
+
+}
+
+
+/* ------------------ APPLYING MEDIA QUERIES 1080 ------------------ */
+
+@media (max-width: 1080px) {
+
+    /* NAVBAR MENU */
+    .menu {
+        display: flex;
+        gap: 1em;
+        font-size: 18px;
+        color: black;
+    }
+
+    .menu li:hover {
+        background-color: #555;
+        border-radius: 5px;
+        transition: 0.3s ease;
+    }
+
+    .menu li {
+        padding: 5px 14px;
+    }
+
+    .card {
+        width: 18rem;
+    }
+
+
+    .footer {
+        position: absolute;
+        background-color: #333;
+        color: white;
+        text-align: center;
+        bottom: -10rem;
+        padding: 10px;
+        width: 100%;
+
+    }
+}
+
+/* ------------------ APPLYING MEDIA QUERIES 1024 ------------------ */
+
+@media only screen and (max-width: 1024px) {
+
+    /* NAVBAR MENU */
+
+    .menu {
+        display: flex;
+        gap: 1em;
+        font-size: 18px;
+        color: black;
+    }
+
+    .menu li:hover {
+        background-color: #555;
+        border-radius: 5px;
+        transition: 0.3s ease;
+    }
+
+    .menu li {
+        padding: 5px 14px;
+    }
+
+    .card {
+        width: 18rem;
+    }
+
+
+    .footer {
+        position: absolute;
+        background-color: #333;
+        color: white;
+        text-align: center;
+        bottom: -10rem;
+        padding: 10px;
+        width: 100%;
+
+    }
+}
+
+/* ------------------ APPLYING MEDIA QUERIES 768 ------------------ */
+
+@media only screen and (max-width: 768px) {
+
+    /* NAVBAR MENU */
+
+    .menu {
+        display: flex;
+        gap: 1em;
+        font-size: 18px;
+        color: black;
+    }
+
+    .menu li:hover {
+        background-color: #555;
+        border-radius: 5px;
+        transition: 0.3s ease;
+    }
+
+    .menu li {
+        padding: 5px 14px;
+    }
+
+    .card {
+        width: 12rem;
+    }
+
+    .footer {
+        position: absolute;
+        background-color: #333;
+        color: white;
+        text-align: center;
+        bottom: -10rem;
+        padding: 10px;
+        width: 100%;
+    }
+}

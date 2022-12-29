@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+
+<coches>
+    <marca>
+        <brand codigoCoche = "S1">Seat</brand>
+        <brand codigoCoche = "V2">Volkswagen</brand>
+        <brand codigoCoche = "P3">Dodge</brand>
+        <brand codigoCoche = "Sport4">Nissan</brand>
+        <brand codigoCoche = "Super5">Pagani</brand>
+        <brand codigoCoche = "Lux6">Rolls Royce</brand>
+    </marca>
+
+    <tipo_coches>
+        <modelo>
+            <tipo codigoModelo= "S1">Sedan</tipo>
+            <nombre>Ibiza</nombre>
+            <fabricado>Spain</fabricado>
+            <anyo>2018</anyo>
+            <maxPotencia>90 CV</maxPotencia>
+            <numAsientos>5</numAsientos>
+            <image url="https://www.motor16.com/wp-content/uploads/2022/02/5605_Ukcsi2B8NER53-p.jpg"/>
+        </modelo>
+        <modelo>
+            <tipo codigoModelo= "V2">Van</tipo>
+            <nombre>Microbus</nombre>
+            <fabricado>Germany</fabricado>
+            <anyo>1966</anyo>
+            <maxPotencia>50 CV</maxPotencia>
+            <numAsientos>7</numAsientos>
+            <image url="https://robbreport.com/wp-content/uploads/2022/06/1-6.jpg"/>
+        </modelo>
+        <modelo>
+            <tipo codigoModelo= "P3">Pickup Truck</tipo>
+            <nombre>RAM</nombre>
+            <fabricado>America</fabricado>
+            <anyo>2019</anyo>
+            <maxPotencia>309 CV</maxPotencia>
+            <numAsientos>5</numAsientos>
+            <image url="https://s3.amazonaws.com/images.gearjunkie.com/uploads/2018/03/2019-dodge-ram-1500.jpg"/>
+        </modelo>
+        <modelo>
+            <tipo codigoModelo= "Sport4">Sports Car</tipo>
+            <nombre>GTR</nombre>
+            <fabricado>Japan</fabricado>
+            <anyo>2020</anyo>
+            <maxPotencia>570 CV</maxPotencia>
+            <numAsientos>4</numAsientos>
+            <image url="https://www.diariomotor.com/imagenes/2019/04/nissan-gt-r-nismo-2020-0419-005.jpg"/>
+        </modelo>
+        <modelo>
+            <tipo codigoModelo= "Super5">Super Car</tipo>
+            <nombre>Huayra</nombre>
+            <fabricado>Italy</fabricado>
+            <anyo>2015</anyo>
+            <maxPotencia>700 CV</maxPotencia>
+            <numAsientos>2</numAsientos>
+            <image url="https://i.pinimg.com/originals/c6/95/2d/c6952dba213adba49fd23922e3d55de3.jpg"/>
+        </modelo>
+        <modelo>
+            <tipo codigoModelo= "Lux6">Luxury</tipo>
+            <nombre>Wraith</nombre>
+            <fabricado>United Kingdom</fabricado>
+            <anyo>2022</anyo>
+            <maxPotencia>630 CV</maxPotencia>
+            <numAsientos>4</numAsientos>
+            <image url="https://cdn.motor1.com/images/mgl/13jgw/s3/rolls-royce-black-badge-wraith-by-spofec.jpg"/>
+        </modelo>
+    </tipo_coches>
+</coches>

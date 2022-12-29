@@ -1,0 +1,20 @@
+<!DOCTYPE coches [
+        <!ELEMENT coches (marca,tipo_coches)>
+        <!ELEMENT marca (brand)+>
+        <!ELEMENT brand (#PCDATA)>
+        <!ATTLIST brand
+                codigoCoche ID #REQUIRED>
+        <!ELEMENT tipo_coches (modelo)+>
+        <!ELEMENT modelo (tipo,nombre,fabricado,anyo,maxPotencia,numAsientos,image)+>
+        <!ELEMENT tipo (#PCDATA)>
+        <!ATTLIST tipo
+                codigoModelo IDREF #REQUIRED>
+        <!ELEMENT nombre (#PCDATA)>
+        <!ELEMENT fabricado (#PCDATA)>
+        <!ELEMENT anyo (#PCDATA)>
+        <!ELEMENT maxPotencia (#PCDATA)>
+        <!ELEMENT numAsientos (#PCDATA)>
+        <!ELEMENT image (#PCDATA)>
+        <!ATTLIST image
+                url CDATA #REQUIRED>
+        ]>
